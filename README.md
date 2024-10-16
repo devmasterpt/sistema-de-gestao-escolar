@@ -4,7 +4,9 @@
 
 ## Visão Geral do Projeto
 
-O **Sistema de Gestão Escolar** é uma plataforma open-source que visa simplificar a administração de escolas, permitindo o gerenciamento de alunos, professores, turmas, disciplinas, notas e frequência. Esta aplicação é ideal tanto para desenvolvedores iniciantes quanto experientes que desejam contribuir com um projeto colaborativo e escalável.
+## Descrição
+
+O **Sistema de Gestão Escolar SaaS** é uma plataforma desenvolvida para a gestão de instituições de ensino superior, como universidades, institutos politécnicos e faculdades. O objetivo principal é fornecer uma plataforma centralizada onde as instituições possam se cadastrar, gerenciar cursos, alunos, professores e turmas, além de facilitarem processos administrativos como matrícula, emissão de certificados e relatórios.
 
 O projeto está sendo desenvolvido com uma stack moderna, utilizando **React**, **Node.js**, **Next.js**, **Tailwind CSS**, **TypeScript**, entre outras tecnologias. O foco inicial é a criação de uma versão mínima funcional (MVP), com funcionalidades essenciais de gestão, e expandir para novas funcionalidades avançadas nas próximas versões.
 
@@ -12,12 +14,19 @@ O projeto está sendo desenvolvido com uma stack moderna, utilizando **React**, 
 
 ## Estrutura do Projeto
 
-> A estrutura do projeto está sendo discutida e será definida com a ajuda da comunidade. Se você tiver sugestões, contribua abrindo uma issue ou participando das nossas reuniões de desenvolvimento.
+> A estrutura do projeto está sendo discutida e melhorada cada vez nais, será definida com a ajuda da comunidade. Se você tiver sugestões, contribua abrindo uma issue ou participando das nossas reuniões de desenvolvimento.
 
 ### Estrutura planejada:
-- **Backend**: Node.js, Express, PostgreSQL
-- **Frontend**: React, Next.js, TailwindCSS
-- **Mobile**: React Native com Expo
+
+- **Node.js** com **Express**: Para construção do backend.
+- **Next.js**: Para desenvolvimento da interface do usuário.
+- **SCSS**: Para estilos em CSS.
+- **PostgreSQL**: Para gerenciamento do banco de dados.
+- **Prisma**: Como ORM para interação com o banco de dados.
+- **React Native** (usando **Expo**): Para desenvolvimento de aplicativos móveis.
+- **TypeScript**: Para maior robustez e tipagem no código.
+- **React**: Para construção de interfaces reativas.
+- **Tailwind CSS** (opcional): Para estilos personalizados.
 
 
 ## Funcionalidades da Versão Inicial (MVP)
@@ -64,7 +73,7 @@ O projeto está sendo desenvolvido com uma stack moderna, utilizando **React**, 
 ## Tecnologias Utilizadas
 
 - **Front-end**:
-  - HTML, CSS, JavaScript, React, Next.js
+  -  React, Next.js
   - TailwindCSS para estilização
   - TypeScript para tipagem estática
 
@@ -95,29 +104,21 @@ Clone o repositório do seu fork localmente com o seguinte comando:
 git clone https://github.com/sua-conta/sistema-de-gestao-escolar.git
 
 
-## 3. Instale as Dependências
-No diretório raiz do projeto, execute o seguinte comando para instalar as dependências:
-npm install
-
+---
 
 ### 4. Configure o Banco de Dados
 Certifique-se de ter o PostgreSQL instalado e configure a conexão ao banco de dados criando um arquivo .env com as seguintes variáveis de ambiente:
 
 DATABASE_URL="postgresql://postgres:sua_Senha@localhost:5432/sgedb?schema=public"
 
-##JWT_SECRET=sua_chave_secreta
-##SMTP_USER=
-##SMTP_PASS=
-##SMTP_HOST=smtp.gmail.com
+- ## JWT_SECRET=sua_chave_secreta.
+- ## SMTP_USER=
+- ## SMTP_PASS=
+- ## SMTP_HOST=smtp.gmail.com
 
-## 5. Rodando o Projeto
-Execute o servidor back-end:
 
-npm run dev
 
-## Para rodar o front-end (Next.js):
-
-npm run dev ou  yarn dev
+---
 
 ## 6.Para o app mobile, vá até a pasta do projeto mobile e execute:
 

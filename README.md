@@ -1,6 +1,6 @@
 # Sistema de Gestão Escolar 📚
 
-**[Visite o Repositório](https://github.com/mamadusama/sistema-gestao-escolar)**
+**[Visite o Repositório](https://github.com/devmasterpt/sistema-de-gestao-escolar)**
 
 ## Visão Geral do Projeto
 
@@ -92,7 +92,7 @@ Crie uma cópia do repositório no seu GitHub clicando no botão **Fork**.
 
 Clone o repositório do seu fork localmente com o seguinte comando:
 
-git clone https://github.com/sua-conta/sistema-gestao-escolar.git
+git clone https://github.com/sua-conta/sistema-de-gestao-escolar.git
 
 
 ## 3. Instale as Dependências
@@ -103,11 +103,12 @@ npm install
 ### 4. Configure o Banco de Dados
 Certifique-se de ter o PostgreSQL instalado e configure a conexão ao banco de dados criando um arquivo .env com as seguintes variáveis de ambiente:
 
-DB_HOST=localhost
-DB_USER=seu_usuario
-DB_PASSWORD=sua_senha
-DB_NAME=sistema_gestao_escolar
+DATABASE_URL="postgresql://postgres:sua_Senha@localhost:5432/sgedb?schema=public"
+
 JWT_SECRET=sua_chave_secreta
+SMTP_USER=
+SMTP_PASS=
+SMTP_HOST=smtp.gmail.com
 
 ## 5. Rodando o Projeto
 Execute o servidor back-end:

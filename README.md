@@ -105,10 +105,10 @@ Certifique-se de ter o PostgreSQL instalado e configure a conexão ao banco de d
 
 DATABASE_URL="postgresql://postgres:sua_Senha@localhost:5432/sgedb?schema=public"
 
-JWT_SECRET=sua_chave_secreta
-SMTP_USER=
-SMTP_PASS=
-SMTP_HOST=smtp.gmail.com
+##JWT_SECRET=sua_chave_secreta
+##SMTP_USER=
+##SMTP_PASS=
+##SMTP_HOST=smtp.gmail.com
 
 ## 5. Rodando o Projeto
 Execute o servidor back-end:
